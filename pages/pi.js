@@ -6,6 +6,8 @@ const api = 'api/pi';
 
 export default function PI() {
 
+    console.log('getting data fro pi');
+
     const [data, setData] = useState([]);
 
     useEffect(() => {
