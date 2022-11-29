@@ -37,7 +37,7 @@ export default function Contact() {
 
 <p>{data.map((item, index) => {
 
-    return <p>{item.name}</p>
+    return <p key={index}>{item.name}</p>
 
 
 

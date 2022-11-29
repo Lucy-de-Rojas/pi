@@ -1,14 +1,14 @@
 import mysql from 'mysql2/promise';
 
-const ourIP = '';
-
+const ourIP = '109.156.76.246';
+const piIP = '192.168.1.111';
 
 export default async function handler (req, res) {
 
 
 
     const connection = await mysql.createConnection({
-        host: '192.168.1.111',
+        host: piIP,
         database: 'naphill',
         port: 3306,
         user: 'lucyderojas',

@@ -32,7 +32,7 @@ export default function PI() {
         <h1>Pi</h1>
 
         {data.map((item, index) => {
-            return <p>{item.name}</p>
+            return <p key={index}>{item.name}</p>
         })}
 
 
