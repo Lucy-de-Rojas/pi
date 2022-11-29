@@ -8,7 +8,7 @@ export default async function handler (req, res) {
 
 
     const connection = await mysql.createConnection({
-        host: piIP,
+        host: ourIP,
         database: 'naphill',
         port: 3306,
         user: 'lucyderojas',
