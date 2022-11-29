@@ -6,6 +6,8 @@ const api = 'api/contact';
 
 export default function Contact() {
 
+    console.log('getting data');
+
 
     const [data, setData] = useState([]);
 
