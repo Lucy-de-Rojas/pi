@@ -22,6 +22,7 @@ export default function Hello() {
             let response = await fetch('api/hello');
             let data = await response.json();
             console.log('data: >>>> ',data);
+            SetName(data);
         }
 
 
@@ -36,6 +37,8 @@ export default function Hello() {
     return (<div>
 
 <h1>Hello Wolrd</h1>
+
+{name.name}
 
 
 
