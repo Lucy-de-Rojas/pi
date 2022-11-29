@@ -14,6 +14,7 @@ export default function PI() {
 
 
         async function getData() {
+            console.log('inside get data func');
             let response = await fetch(api);
             let data = await response.json();
             console.log(data);
