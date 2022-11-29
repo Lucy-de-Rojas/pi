@@ -14,6 +14,9 @@ export default async function handler (req, res) {
         user: 'lucyderojas',
         password: 'Filipo13',
     });
+
+
+    
     console.log('inside pi api/pi');    
     
     let values = [];
